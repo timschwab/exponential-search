@@ -37,7 +37,7 @@ public class Main
 			BigInteger miss = value.subtract(prev.value());
 			BigInteger check = miss.subtract(delta);
 			if ( (check.signum() < 0) && !(value.equals(prev.value())) )
-				System.out.println(value + "\t= " + exp + "\t= " + prev + " + " + miss);
+				System.out.println(value + "\t= " + exp + "\t= " + prev + "\t+ " + miss);
 
 			/* If we extracted a square, provide the next one */
 			if (power == 2)
