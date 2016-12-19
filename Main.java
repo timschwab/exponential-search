@@ -45,7 +45,7 @@ public class Main
 				Exponential next = new Exponential(base.add(BigInteger.ONE), 2);
 				set.add(next);
 
-				if (next.base.mod(benchmark).equals(BigInteger.ZERO))
+				if (next.base().mod(benchmark).equals(BigInteger.ZERO))
 					System.out.println("Reached " + next);
 			}
 
