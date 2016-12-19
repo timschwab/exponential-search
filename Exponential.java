@@ -14,9 +14,9 @@ public class Exponential implements Comparable<Exponential>
 	private static final BigInteger largePrime1 = new BigInteger("10007");
 	private static final int        largePrime2 = 10009;
 
-	final BigInteger base;
-	final int power;
-	final BigInteger value;
+	private final BigInteger base;
+	private final int power;
+	private final BigInteger value;
 
 	public Exponential(BigInteger base, int power)
 	{
