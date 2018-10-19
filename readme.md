@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project searches for large exponentials that are uncommonly close to each other. An exponential is an integer that can be expressed as `a^b`, where `a` and `b` are integers greater than 2. (I believe there is an actual name for these numbers, but I could not find it, so I'm calling them exponentials.) As you can imagine, as these numbers grow very quickly. They are often over 10,000 units apart. It is interesting, though, that even when they become astronomical, they occasionally are within even 100 of each other. This program searches for such instances.
+This project searches for large exponentials that are uncommonly close to each other. An exponential is an integer that can be expressed as `a^b`, where `a` and `b` are integers greater than 2. (I believe there is an actual name for these numbers, but I could not find it, so I'm calling them exponentials.) As you can imagine, these numbers grow very quickly. They are often over 10,000 units apart. It is interesting, though, that even when they become astronomical, they occasionally are within even 100 of each other. This program searches for such instances.
 
 ## Algorithm
 
